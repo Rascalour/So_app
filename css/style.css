@@ -1,0 +1,61 @@
+@import url("scroll_icon.css");
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+/* .imagefond{
+    background-image: url(../images/fond.PNG);
+    border-radius: 15px;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.photos img {
+    border-radius: 20px;
+}
+
+.effet{
+    background-image: url(../images/bg.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 15px;
+
+}
+.vignette{
+    position: relative;
+}
+.desc{
+    position: absolute;
+    
+}
+a.bouton_vp {
+    padding: 10px 30px;
+    background: #FA9D5A;
+
+}
+a.bouton_ve {
+    padding: 10px 30px;
+    background: #707070;
+
+}
+
+.header_cta a {
+    min-width: 15rem;
+}
+
+
