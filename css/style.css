@@ -2,6 +2,7 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
 }
 
 .list a {
@@ -20,9 +21,25 @@ a:hover {
   border-radius: 20px;
 }
 
-.effet {
+.home {
   background-image: url(../images/bg.jpg);
   height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 15px;
+}
+.head_app{
+  background-image: url(../images/bg_app.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 15px;
+}
+.head_soc{
+  background-image: url(../images/bg_soc.jpg);
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -40,7 +57,7 @@ a.bouton_vp {
 }
 a.bouton_ve {
   padding: 10px 30px;
-  background: #70707020;
+  background: #c7d0d8;
 }
 
 .header_cta a {
@@ -48,15 +65,13 @@ a.bouton_ve {
 }
 .bttn {
   min-width: 150px;
-  padding: 15px 10px;
+  padding: 25px 20px;
   margin: 20px;
   background: #fff;
   border: none;
   border-radius: 5px;
   color: #707070;
-  font-size: 15px;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 2px;
   box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 0.7),
     0px 0px 20px 0 rgba(0, 0, 0, 0.2);
@@ -71,4 +86,22 @@ a.bouton_ve {
 .licences {
   max-width: 30%;
   border-radius: 15px;
+}
+
+
+
+footer{
+  background: #707070;
+  border-radius: 15px;
+}
+
+.bouton_vpf{
+  background: #fa9d5a;
+  padding: 5px 15px;
+  max-width: 150px;
+}
+.bouton_vef{
+  background: #c7d0d8;
+  padding: 5px 15px;
+  max-width: 150px;
 }
