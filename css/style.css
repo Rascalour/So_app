@@ -29,6 +29,13 @@ a:hover {
   background-attachment: fixed;
   border-radius: 15px;
 }
+
+  @media only screen and (max-width: 580px)  {
+    .home{
+    height: 90vh;
+    }
+  }
+
 .head_app{
   background-image: url(../images/bg_app.jpg);
   height: 50vh;
@@ -45,6 +52,14 @@ a:hover {
   background-attachment: fixed;
   border-radius: 15px;
 }
+.head_dl{
+  background-image: url(../images/bg_dl.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 15px;
+}
 .vignette {
   position: relative;
 }
@@ -52,16 +67,16 @@ a:hover {
   position: absolute;
 }
 a.bouton_vp {
-  padding: 10px 30px;
+  padding: 10px 20px;
   background: #fa9d5a;
 }
 a.bouton_ve {
-  padding: 10px 30px;
+  padding: 10px 20px;
   background: #c7d0d8;
 }
 
 .header_cta a {
-  min-width: 15rem;
+  min-width: 10rem;
 }
 .bttn {
   min-width: 150px;
@@ -85,15 +100,22 @@ a.bouton_ve {
 }
 
 .licences {
-  max-width: 30%;
-  border-radius: 15px;
+  max-width: 50%;
+  border-radius: 10px;
 }
 
-
-
+.icons{
+  max-width: 80px;
+}
 footer{
   background: #707070;
   border-radius: 15px;
+}
+@media only screen and (max-width: 580px)  {
+  footer{
+  flex-direction: column;
+  height: 50vh;
+  }
 }
 
 .bouton_vpf{
@@ -105,4 +127,13 @@ footer{
   background: #c7d0d8;
   padding: 5px 15px;
   max-width: 150px;
+}
+
+.spl{
+  background-image: url(../images/img_spl.jpg);
+  width: 50vh;
+  height: 2vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
 }
